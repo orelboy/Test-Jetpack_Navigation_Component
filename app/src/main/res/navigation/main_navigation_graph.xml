@@ -12,7 +12,26 @@
         tools:layout="@layout/fragment_start" >
         <action
             android:id="@+id/action_startFragment_to_factFragment"
-            app:destination="@id/factFragment" />
+            app:destination="@id/factFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+            <!--
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/hold"
+            app:popEnterAnim="@anim/hold"
+            app:popExitAnim="@anim/slide_out_right"
+            -->
+
+        <!--
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/hold"
+            app:popEnterAnim="@anim/hold"
+            app:popExitAnim="@anim/fade_out"
+        -->
+
     </fragment>
     <fragment
         android:id="@+id/factFragment"
@@ -21,7 +40,27 @@
         tools:layout="@layout/fragment_fact" >
         <action
             android:id="@+id/action_factFragment_to_imageFragment"
-            app:destination="@id/imageFragment" />
+            app:destination="@id/imageFragment"
+
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+            <!--
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/hold"
+            app:popEnterAnim="@anim/hold"
+            app:popExitAnim="@anim/slide_out_right"
+            -->
+
+        <!--
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/hold"
+            app:popEnterAnim="@anim/hold"
+            app:popExitAnim="@anim/fade_out"
+        -->
+
     </fragment>
     <fragment
         android:id="@+id/imageFragment"
