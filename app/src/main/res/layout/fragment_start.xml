@@ -1,11 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/white">
+    android:background="@color/white"
+    tools:context="com.practicum.testjetpacknavigationcomponent.StartFragment">
 
-    <Button android:id="@+id/catButton"
+
+<Button android:id="@+id/catButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cat"/>
